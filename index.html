@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Construcción de software orientado a servicios</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Virtualización</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#definicion">¿Qué es?</a></li>
+                <li><a href="#funcion">¿Cómo funciona?</a></li>
+                <li><a href="#ventajas">Ventajas y desventajas</a></li>
+                <li><a href="#example">Ejemplos</a></li>
+                <li><a href="#graficos">Gráficos</a></li>
+                <li><a href="#importancia">Importancia</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Virtualización</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#definicion" onclick="toggleMenu()">¿Qué es?</a></li>
+                <li><a href="#funcion" onclick="toggleMenu()">¿Cómo funciona?</a></li>
+                <li><a href="#ventajas" onclick="toggleMenu()">Ventajas y desventajas</a></li>
+                <li><a href="#example" onclick="toggleMenu()">Ejemplos</a></li>
+                <li><a href="#graficos" onclick="toggleMenu()">Gráficos</a></li>
+                <li><a href="#importancia" onclick="toggleMenu()">Importancia</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section_pic-container">
+            <img src="img/principal.webp" alt="Principal picture" />
+        </div>
+        
+            <p class="section_text_p1">Tema:</p>
+            <h1 class="title">Virtualización</h1>
+        
+        <section id="definicion">
+           
+            <h1 class="title">¿Qué es?</h1>
+            <div class="section-container">
+             <div class="section_pic-container">
+                <img
+                 src="img/definicion.png" 
+                 alt="Profile picture"
+                 class="about-pic"
+                />
+            </div>
+            
+            <div class="text-container">
+                    <p>
+                        La virtualización es una tecnología que permite la ejecución de varias máquinas virtuales sobre una máquina física, con el objetivo de aprovechar al máximo los recursos del sistema y mejorar su rendimiento. Básicamente, la virtualización utiliza software para imitar características o recursos de un hardware y así crear un sistema informático emulado o virtual. Esto elimina la necesidad de adquirir otro hardware para levantar un servicio, mejorando la agilidad, escalabilidad y flexibilidad de la infraestructura de tecnologías de la información.
+                    </p>
+                <div>
+            </div>
+        </div>
+
+        <section id="funcion">
+            
+        <h1 class="title">¿Cómo funciona?</h1>
+            <div class="section-container">
+             <div class="section_pic-container">
+                <img
+                 src="img/funcion.png" 
+                 alt="Profile picture"
+                 class="about-pic"
+                />
+            </div>
+            
+            <div class="text-container">
+                    <p>
+                        La virtualización ejecuta los procesos en una máquina física de otras máquinas virtuales; es decir; consigue que una computadora trabaje como muchas computadoras juntas; ¿de qué manera?: el software o hipervisor separa el sistema operativo de las aplicaciones del hardware. 
+
+                        Esto trae como resultado que cada máquina virtual ejecute su propio sistema operativo y se comporte como una computadora independiente, a pesar de que se encuentra instalado en un solo hardware. 
+                    </p>
+                <div>
+            </div>
+        </div>
+
+        <img
+             src="assets/arrow.png" 
+             alt="Arrow icon"
+             class="icon arrow"
+             onclick="location.href='./#experience'"
+             />
+        </section>
+       <section id="ventajas">
+           
+            <h1 class="title">Ventajas y desventajas</h1>
+            <div class="experience-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <h2 class="experience-sub-title">Ventajas</h2>
+                        <div class="article-container">
+                            <article>
+                                <img
+                                 src="img/checkmark.png" 
+                                 alt="Experience icon"
+                                 class="icon"
+                                /> 
+                                <div>
+                                  <h3>Reducción de costos</h3> 
+                                  
+                                </div> 
+                            </article>
+                            <article>
+                                <img
+                                 src="img/checkmark.png" 
+                                 alt="Experience icon"
+                                 class="icon"
+                                />
+                                <div>
+                                    <h3>Mejoras en seguridad</h3> 
+                                   
+                                  </div> 
+                              </article>
+                              <article>
+                                  <img
+                                   src="img/checkmark.png" 
+                                   alt="Experience icon"
+                                   class="icon"
+                                  />
+                                  <div>
+                                    <h3>Cómoda y sencilla administración</h3> 
+                                    
+                                  </div> 
+                              </article>
+                              <article>
+                                  <img
+                                   src="img/checkmark.png" 
+                                   alt="Experience icon"
+                                   class="icon"
+                                  />
+                                  <div>
+                                    <h3>Poco mantenimiento</h3> 
+                                    
+                                  </div> 
+                              </article>
+                        </div>
+                    </div>
+                    <div class="details-container">
+                        <h2 class="experience-sub-title">Desventajas</h2>
+                        <div class="article-container">
+                            <article>
+                                <img
+                                   src="img/checkmark.png" 
+                                   alt="Experience icon"
+                                   class="icon"
+                                  />
+                                  <div>
+                                    <h3>Sobrecarga de rendimiento</h3> 
+                                  </div> 
+                              </article>
+                              <article>
+                                  <img
+                                   src="img/checkmark.png" 
+                                   alt="Experience icon"
+                                   class="icon"
+                                  />
+                                  <div>
+                                    <h3>Proliferación de máquinas virtuales</h3> 
+                                  </div> 
+                              </article>
+                              <article>
+                                  <img
+                                   src="img/checkmark.png" 
+                                   alt="Experience icon"
+                                   class="icon"
+                                  />
+                                  <div>
+                                    <h3>Problemas de seguridad</h3> 
+                                  </div> 
+                              </article>
+                              <article>
+                                  <img
+                                   src="img/checkmark.png" 
+                                   alt="Experience icon"
+                                   class="icon"
+                                  />
+                                <div>
+                                    <h3>Punto único de fallo</h3>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <img
+                src="assets/arrow.png" 
+                alt="Arrow icon"
+                class="icon arrow"
+                onclick="location.href='./#projects'"
+                />
+       </section>
+       <section id="example">
+            
+            <h1 class="title">Ejemplos</h1>
+            <div class="experience-details-container">
+                <div class="about-containers">
+                    <div class="details-container color-container">
+                        
+                        <div class="text-container">
+                            <p>
+                              <ol>
+                                <li>
+                                    <b>Virtualización de aplicaciones: </b> Permite al usuario utilizar un software que no está instalado en su equipo. Así, y bajo demanda, el servidor de la proveedora del software suministra al usuario un paquete que guarda las configuraciones y el entorno necesarios para ejecutar el software, de forma que podrá utilizarlo sin necesidad de llevar a cabo una descarga completa.
+                                </li>
+                                <br>
+                                <li>
+                                    <b>Virtualización de escritorios: </b> se crea un escritorio virtual que no está almacenado en el ordenador del usuario, sino en los servidores de la proveedora del servicio. Así, cada vez que un usuario esté accediendo a su escritorio virtual, los programas, aplicaciones, datos, etc., estarán albergados en dichos servidores.
+                                </li>
+                                <br>
+                                <li>
+                                    <b>Virtualización de servidores: </b> La virtualización de servidores divide estos en una serie de servidores virtuales, lo que permite beneficios como el ahorro de costes o la automatización de algunas tareas.
+                                </li>
+                                <br>
+                                <li>
+                                    <b>Virtualización de almacenamiento: </b> Es práctica habitual la de centralizar la información en un único hipervisor en el que podremos acceder a todos los datos, independientemente de que estos se encuentren almacenados en diferentes lugares y soportes, facilitando la gestión y mejorando la disponibilidad y la velocidad.
+                                </li>
+                                <br>
+                                <li>
+                                    <b>Virtualización de redes: </b> Utiliza los recursos físicos de una red con el objeto de formar diferentes redes virtuales que funcionen de forma independiente y separadas entre sí.
+                                </li>
+                              </ol>  
+                            </p>
+                        </section>
+                    
+                    </div>
+                </div>
+            </div>
+            <img
+                src="assets/arrow.png" 
+                alt="Arrow icon"
+                class="icon arrow"
+                onclick="location.href='./#contact'"
+                />
+       </section>
+
+       <section id="graficos">
+            
+        <h1 class="title">Gráficos</h1>
+        <section id="graficos">
+        <div class="section-container">
+            <div class="section_pic-container">
+               <img
+                src="img/grafico.jpeg" 
+                alt="Profile picture"
+                class="about-pic"
+               />
+           </div>
+        </section>
+                <div class="text-container">
+
+                <p>
+                    Lo que nos muestra la anterior imagen es un tipo de virtualización de infraestructura, la cual consiste en la creación de Máquinas Virtuales que simulan ser máquinas físicas en las cuales se puede instalar un Sistema operativo, y todas las demás aplicaciones como si fuese una computadora del mundo real. Estas máquinas virtuales pueden acceder a recursos como la red, tarjetas de video, sonido, cámaras, dispositivos USB o cualquier otro que el hipervisor comparta con ellas. Este tipo de virtualización permite gestionar los recursos de hardware que tendrá la VM en dependencia de los recursos reales disponibles.                </p>
+            </div>
+            </div>
+        </div>
+   </section>
+
+       <section id="importancia">
+            
+            <h1 class="title">Importancia</h1>
+            
+            <section id="importancia">
+                    <div class="text-container">
+                    <p>
+                        Es importante conocer el concepto y la aplicación de la virtualización como estrategia para optimizar los recursos físicos en el ambiente laboral y/o personal, ya que permite reducir costos, mejorar la administración de la plataforma, garantizar la continuidad del negocio y agilizar tareas que antes tomaban mucho tiempo. La virtualización también ofrece flexibilidad y escalabilidad, lo que la convierte en una herramienta valiosa para optimizar recursos en entornos laborales y personales.  
+                    </p>
+                </div>
+                </div>
+            </div>
+       </section>
+       <footer>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+            <nav>
+                <div class="nav-links-container">
+                    <ul class="nav-links">
+                        <li><a href="#definicion">¿Qué es?</a></li>
+                        <li><a href="#funcion">¿Cómo funciona?</a></li>
+                        <li><a href="#ventajas">Ventajas y desventajas</a></li>
+                        <li><a href="#example">Ejemplos</a></li>
+                        <li><a href="#graficos">Gráficos</a></li>
+                        <li><a href="#importancia">Importancia</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <p>Copyright &#169; 2024 Derly Huelgos. All Rights Reserved.</p>
+       </footer>
+       <script src="script.js"></script>
+    </body>
+</html>
